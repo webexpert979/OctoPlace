@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
 			<div>
 				<nav className={`${bottomBorderClass} p-8`}>
 					<div className="flex mt-4 justify-center">
-						<p className="text-6xl font-bold justify-center">OctoPlace</p>
+						<p className="text-6xl font-bold justify-center">Dexter</p>
 					</div>
 					<div className="flex mt-8 justify-center">
 						<Link href="/">
@@ -94,9 +94,9 @@ function MyApp({ Component, pageProps }) {
 			<footer
 				className="flex justify-center border-t border-gray-500 py-8 inset-x-0 bottom-0 p-4"
 			>
-				<Link href="https://github.com/JaredBorders/OctoPlace/blob/master/whitepaper_v1.pdf"><a className="px-6 text-gray-400">Whitepaper</a></Link>
-				<Link href="https://github.com/JaredBorders/OctoPlace/tree/master/contracts"><a className="px-6 text-gray-400">Contracts</a></Link>
-				<Link href="mailto: jlbxsxs@gmail.com"><a className="px-6 text-gray-400">Contact</a></Link>
+				<Link href="#"><a className="px-6 text-gray-400">Whitepaper</a></Link>
+				<Link href="#"><a className="px-6 text-gray-400">Contracts</a></Link>
+				<Link href="#"><a className="px-6 text-gray-400">Contact</a></Link>
 				
 			</footer>
 		</ThemeProvider>
